@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  min-width: 376px;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  margin: 5em auto;
+  border: none;
+  background-color: hsl(216, 50%, 16%);
+  width: 11em;
+  height: 19em;
+  padding: 0.6em;
+  border-radius: 0.5em;
+}
+
+img:nth-child(1) {
+  width: 100%;
+  height: 52%;
+  border-radius: 0.3em;
+}
+
+h3 {
+  font-size: 0.9em;
+  padding: 0.5em 0;
+  font-weight: 600;
+}
+
+.pone {
+  color: hsla(215, 51%, 70%, 0.6);
+}
+
+p {
+  font-size: 0.65em;
+}
+
+.mai {
+  padding-top: 0.4em;
+  width: 100%;
+  display: flex;
+  font-size: 0.8em;
+  margin: 0.41em 0;
+}
+
+.eth {
+  width: 50%;
+  display: flex;
+  height: 2em;
+}
+.eth img {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+}
+.eth p {
+  margin-left: 0.7em;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+.clock {
+  width: 50%;
+  display: flex;
+  height: 2em;
+  justify-content: right;
+}
+
+.clock img {
+  width: 12px;
+  height: 12px;
+  padding-right: 0.3em;
+  object-fit: contain;
+}
+.clock p {
+  margin-top: 1px;
+}
+
+hr {
+  background-color: hsla(215, 32%, 27%, 0.6);
+  height: 0.6px;
+  border: none;
+}
+
+.last {
+  margin: 2.2em 0;
+  display: flex;
+  font-size: 0.4em;
+}
+
+.last img {
+  width: 3em;
+  height: 3em;
+  object-fit: contain;
+  padding-right: 0.9em;
+}
+
+.last h5 {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.last h5 span {
+  margin-right: 3px;
+  color: hsl(215, 51%, 70%);
+}
+
+@media screen() {
+  
+}
